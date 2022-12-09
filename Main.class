@@ -1,0 +1,62 @@
+package Packet;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+	
+		// Calculating Grocery Shopping by Fruit and Vegetables...
+	
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		scan.useLocale(Locale.US);
+		
+		double cukilo = 3.14;
+		
+		double appkilo = 4.11;
+		
+		double zuckilo = 2.22;
+		
+		double tomkilo = 0.95;
+		
+		double egpkilo = 7.0;
+		
+		System.out.println("Cucumber Kilogram:");
+		
+		double cu = scan.nextDouble();
+		
+		System.out.println("Apple Kilogram:");
+		
+		double app = scan.nextDouble();
+		
+		System.out.println("Zucchini Kilogram:");
+		
+		double zuc = scan.nextDouble();
+		
+		System.out.println("Tomato Kilogram:");
+		
+		double tom = scan.nextDouble();
+		
+		System.out.println("Eggplant Kilogram:");
+		
+		double egp = scan.nextDouble();
+		
+		
+		double Sum = 0.0;
+		
+		Sum += (cu * cukilo);
+		Sum += (app * appkilo);
+		Sum += (zuc * zuckilo);
+		Sum += (tom * tomkilo);
+		Sum += (egp * egpkilo);
+		
+		System.out.println("Intake: " + Sum +"$");
+		
+		
+		
+		
+	}
+
+}
